@@ -1,0 +1,6 @@
+num=int(input( "Enter a number: "))
+count = 0
+#I put 9 because if I put 10 it will stop on 11 and finish 11 also
+while (count<= 9):
+  count = count + 1
+  print(num, '*', count, '=', num * count)
